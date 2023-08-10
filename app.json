@@ -15,6 +15,9 @@
           "locationAlwaysAndWhenInUsePermission": "Anna $(PRODUCT_NAME) kusettaa."
         }
       ]
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.jeffedev.s-kusetus"
+    }
   }
 }
