@@ -5,6 +5,9 @@
     "web": {
       "bundler": "metro"
     },
+    "splash": {
+      "backgroundColor": "#00B74B"
+    },
     "name": "S-Kusetus",
     "slug": "s-kusetus",
     "plugins": [
