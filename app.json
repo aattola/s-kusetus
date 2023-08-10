@@ -1,10 +1,20 @@
 {
   "expo": {
-    "scheme": "acme",
+    "icon": "./icon.png",
+    "scheme": "s-kusetus",
     "web": {
       "bundler": "metro"
     },
-    "name": "s-kusetus",
-    "slug": "s-kusetus"
+    "name": "S-Kusetus",
+    "slug": "s-kusetus",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Anna $(PRODUCT_NAME) kusettaa."
+        }
+      ]
+    ]
   }
 }
